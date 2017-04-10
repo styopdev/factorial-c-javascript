@@ -1,6 +1,6 @@
 const primeAverageNode = require('./prime-average');
 const primeAverageC = require('./build/Release/prime-average');
-const n = 1000000; // 100 k
+const n = 1000000; // 1 mln
 
 console.time('Prime Average Node');
 console.log(primeAverageNode.calculate(n));
